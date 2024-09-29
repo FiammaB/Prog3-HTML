@@ -1,0 +1,68 @@
+.negritaArchivo {
+    font-weight: 700;
+}
+
+.listaCircle {
+
+    list-style-type: circle;
+}
+
+.listaScuare {
+    list-style-type: square;
+}
+
+.listaLower-roman {
+    list-style-type: lower-roman;
+}
+
+.listaLower-greek {
+    list-style-type: lower-greek;
+}
+
+.listaupper-Latin {
+    list-style-type: upper-latin;
+}
+
+.listalower-latin {
+    list-style-type: lower-latin;
+}
+
+.listaAmerican {
+    list-style-type: armenian;
+}
+
+.listaupper-alpha {
+    list-style-type: upper-alpha;
+}
+
+.listalower-alpha {
+    list-style-type: lower-alpha;
+}
+
+.listadecimal-leading-zero {
+    list-style-type: decimal-leading-zero;
+}
+
+.contenedor-principal {
+    display: flex;
+    /* Coloca los contenedores uno al lado del otro */
+    justify-content: space-between;
+    /* Espacia uniformemente los contenedores */
+    gap: 20px;
+    /* Espacio entre los contenedores */
+    padding: 20px;
+}
+
+.contenedor {
+    border: 2px solid #000;
+    /* Borde de 2 píxeles de grosor en negro */
+    padding: 20px;
+    /* Espacio interno para que el contenido no esté pegado al borde */
+    width: 200px;
+    /* Ancho del contenedor */
+    margin: 20px auto;
+    /* Centramos el contenedor */
+    background-color: #f9f9f9;
+    /* Color de fondo claro */
+    display: flex;
+}

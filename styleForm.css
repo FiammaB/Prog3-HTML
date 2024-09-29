@@ -1,0 +1,55 @@
+.titulos {
+    text-align: center;
+
+}
+
+.contenedor {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    gap: 5px;
+    /* Espacio entre los contenedores */
+    padding: 5px;
+    /* Espacio interno para que el contenido no esté pegado al borde */
+    width: 300px;
+    /* Ancho del contenedor */
+    margin: 20px auto;
+
+
+}
+
+.cont-principal {
+    justify-content: space-between;
+}
+
+
+
+table {
+    border-collapse: collapse;
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    text-align: left;
+}
+
+td {
+    margin: auto;
+}
+
+.contenedor-textArea {
+    display: flex;
+    gap: 5px;
+    /* Espacio entre los contenedores */
+    padding: 5px;
+    /* Espacio interno para que el contenido no esté pegado al borde */
+    width: 50%;
+    /* Ancho del contenedor */
+    margin: 5px;
+
+}
+
+.btn-buscar {
+    margin-left: 30%;
+    align-items: end;
+    text-align: left;
+}

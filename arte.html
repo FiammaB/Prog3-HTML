@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleForm.css">
+    <title>Catalogo De Arte</title>
+</head>
+
+<body>
+    <div class="titulos">
+        <h2>CATALOGO DE ARTE</h2>
+    </div>
+    <div>
+        <h4> Introduce los terminos de busqueda:</h4>
+    </div>
+    <form action="#" method="POST">
+        <table>
+            <tr>
+                <th colspan="2">OBRA</th>
+                <th>TIPO</th>
+                <th>DISPONIBILIDAD</th>
+                <th>ESTILO</th>
+            </tr>
+            <tr>
+
+                <td><label for="titulo" class="col-form-label">Titulo </label></td>
+                <td><input type="text" id="titulo" class="form-control"></td>
+                <td>
+
+                    <input type="checkbox" name="tipo" value="escultura"> Escultura<br>
+                    <input type="checkbox" name="tipo" value="arquitectura"> Arquitectura<br>
+                    <input type="checkbox" name="tipo" value="pintura"> Pintura
+
+                </td>
+                <td>
+                    <input type="radio" name="disponibilidad" value="museo"> Museo / Acceso público<br>
+                    <input type="radio" name="disponibilidad" value="privada"> Colección privada
+                </td>
+                <td>
+                    <select>
+                        <option value="clasico">Clásico</option>
+                        <option value="Abstracto">Abstracto</option>
+                        <option value="surrealista">surrealista</option>
+                        <!-- Agrega más opciones según sea necesario -->
+                    </select>
+            </tr>
+            <tr>
+                <td><label for="autor" class="col-form-label">Autor </label></td>
+                <td><input type="text" id="autor" class="form-control"></td>
+            </tr>
+        </table>
+        <div class="contenedor-textArea">
+
+
+            <label for="sugerencias"><b>Hagános saber sus sugerencias:</b></label>
+
+            <textarea id="sugerencias" name="sugerencias" rows="4" cols="40"> Me gustaria indicar que ...
+            </textarea>
+
+
+
+        </div>
+        <button type="search" class="btn-buscar">Buscar</button>
+    </form>
+</body>
+
+</html>
